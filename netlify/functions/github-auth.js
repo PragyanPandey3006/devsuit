@@ -39,8 +39,8 @@ exports.handler = async (event, context) => {
       };
     }
 
-    const clientId = 'Ov23lilA5w7ZZVZZ1Xk0';
-    const clientSecret = '3ddf9e3de6da91f48a55ee569185281e2c694588';
+    const clientId = process.env.VITE_GITHUB_CLIENT_ID;
+    const clientSecret = process.env.GITHUB_CLIENT_SECRET;
 
     // Exchange code for access token
     const tokenResponse = await fetch('https://github.com/login/oauth/access_token', {
