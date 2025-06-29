@@ -9,7 +9,7 @@
 
 [build.environment]
   NODE_VERSION = "18"
-  VITE_GITHUB_CLIENT_ID = "Ov23lilA5w7ZZVZZ1Xk0"
+ 
 
 [[headers]]
   for = "/*"
