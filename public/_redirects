@@ -1,1 +1,31 @@
-/*    /index.html   200
+# Netlify redirects for DevSuit
+
+# Main pages (no authentication required)
+/support    /support.html    200
+/docs       /docs.html       200
+/blog       /blog.html       200
+/privacy    /privacy.html    200
+/terms      /terms.html      200
+
+# Root redirects to landing page
+/           /index.html      200
+
+# Dashboard and app routes go to React app
+/dashboard/*  /index.html    200
+/gitpulse/*   /index.html    200
+/repo-analyzer/*  /index.html    200
+/auto-labeler/*   /index.html    200
+/comment-tracker/*  /index.html    200
+/org-stats/*      /index.html    200
+/first-pr/*       /index.html    200
+/timeline/*       /index.html    200
+/issue-board/*    /index.html    200
+/dev-toolkit/*    /index.html    200
+/events/*         /index.html    200
+/readme-syncer/*  /index.html    200
+
+# API routes
+/api/*      /.netlify/functions/:splat    200
+
+# Fallback for any other routes
+/*          /index.html      200
