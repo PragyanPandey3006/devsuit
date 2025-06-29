@@ -172,8 +172,8 @@ const LoginPage: React.FC = () => {
                   <div>
                     <p className="text-blue-400 text-xs font-medium">OAuth Configuration</p>
                     <p className="text-blue-300 text-xs mt-1">
-                      Client ID: Ov23lilA5w7ZZVZZ1Xk0<br />
-                      Redirect URI: https://gregarious-banoffee-0aef92.netlify.app
+                      Client ID: xxxxxxxxxxxxxxxxxxxxxxxx<br />
+                      Redirect URI: https://devsuit.software
                     </p>
                   </div>
                 </div>
